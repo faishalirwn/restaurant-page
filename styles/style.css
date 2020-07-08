@@ -1,0 +1,114 @@
+/* Aligator.io Minimal CSS Reset */
+html {
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Start here */
+
+body {
+    background-color: rgba(0,0,0,0.025);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#content {
+    height: 100vh;
+    padding-top: 20px;
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#logo-nav {
+    max-width: 60px;
+}
+
+nav {
+    width: 80%;
+    margin: auto;
+}
+
+nav ul {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 60px;
+    font-size: 1.2rem;
+}
+
+.page-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Home page */
+
+#cta {
+    display: flex;
+    height: 100%;
+}
+
+#cta-desc {
+    max-width: 50%;
+    padding-left: 20px;
+}
+
+#cta-desc h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+/* Menu page */
+
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    max-width: 30%;
+    margin: 20px 10px 0;
+    text-align: right;
+}
+
+/* About page */
+
+#about {
+    text-align: center;
+}
+
+#logo-about {
+    margin-bottom: 50px;
+}
