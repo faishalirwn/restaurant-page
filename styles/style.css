@@ -103,12 +103,34 @@ nav li {
     text-align: right;
 }
 
-/* About page */
+.menu-item p {
+    font-style: italic;
+}
 
-#about {
+/* Contact page */
+#contact p {
     text-align: center;
 }
 
-#logo-about {
-    margin-bottom: 50px;
+@media (max-width: 768px) {
+    #cta {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #cta-desc {
+        text-align: center;
+        max-width: 90%;
+        padding-right: 0;
+        padding-top: 25px;
+    }
+
+    #menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-item {
+        max-width: 60%;
+    }
 }
